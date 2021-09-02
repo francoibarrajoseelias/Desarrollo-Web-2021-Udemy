@@ -1,0 +1,18 @@
+/* las propiedades de las etiquetas html y body son unos hacks parar poder usar valore "rem" */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;  /* 1 rem = 10px */
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+/* Ojo los valores de rem debe estar juntos primero el numero y luego el rem, no puede haber espacio entre ellos */
+.titulo span{
+    font-size: 2rem;
+}

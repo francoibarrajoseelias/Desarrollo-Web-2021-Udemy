@@ -5,24 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ese link de abajo es para que cargue mas rapido la hojas de estilo, es lo ultimo que salio de css y sirve para mucho en el perfomace -->
+    <link rel="preload"  href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Diseñador Web</title>
 </head>
 
 <body>
     <header>
-        <h1>Elias Franco Freelancer</h1>
+        <h1 class="titulo">Elias Franco <span>Freelancer</span></h1>
     </header>
 
     <nav>
         <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
+        <a href="nosotros.html">Nosotros</a>
         <a href="#">Clientes</a>
         <a href="#">Contactos</a>
     </nav>
 
 
     <section>
-        <h2>Diseño y Desarrollo Web Freelancer</h2>
+        <h2 class="titulo">Diseño y Desarrollo Web <span>Freelancer</span> </h2>
 
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88"
             viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round"
@@ -131,6 +134,7 @@
                     <textarea></textarea>
                 </div>
                 
+                <input type="submit" value="Enviar">
             </fieldset>
 
         </form>
